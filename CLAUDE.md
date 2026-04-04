@@ -61,3 +61,7 @@ Next.js 15 (App Router) · React 19 · TypeScript · Tailwind CSS v4 · Prisma +
 Only required env var: `ANTHROPIC_API_KEY` in `.env`. Without it the app uses a mock provider (no actual AI responses).
 
 `NODE_OPTIONS='--require ./node-compat.cjs'` is prepended to all Next.js commands via the npm scripts — this is a Node.js compatibility shim required for the project to run correctly.
+
+## Code Style
+
+Use comments sparingly. Only comment complex code.
