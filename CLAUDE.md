@@ -62,6 +62,10 @@ Only required env var: `ANTHROPIC_API_KEY` in `.env`. Without it the app uses a 
 
 `NODE_OPTIONS='--require ./node-compat.cjs'` is prepended to all Next.js commands via the npm scripts — this is a Node.js compatibility shim required for the project to run correctly.
 
+## Database
+
+The database schema is defined in `prisma/schema.prisma`. Reference it anytime you need to understand the structure of data stored in the database.
+
 ## Code Style
 
 Use comments sparingly. Only comment complex code.
